@@ -32,7 +32,7 @@
           <mxGeometry x="30" y="129" width="30" height="60" as="geometry" />
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-13" value="Data Store&lt;div&gt;key value pairs&lt;/div&gt;&lt;div&gt;long vs short url&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="660" y="125" width="60" height="80" as="geometry" />
+          <mxGeometry x="660" y="110" width="60" height="110" as="geometry" />
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.995;exitY=0.63;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-9" target="W2t6VYhGArtFluvk6CB1-13">
           <mxGeometry relative="1" as="geometry" />
@@ -67,16 +67,16 @@
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-23" value="GET" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W2t6VYhGArtFluvk6CB1-22">
           <mxGeometry x="0.0123" y="-1" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-56" y="20" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-27" value="USer enters a short url&amp;nbsp;&lt;div&gt;on web against our domain&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W2t6VYhGArtFluvk6CB1-22">
           <mxGeometry x="-0.4679" y="-4" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="2" y="23" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-24" value="How does this router work&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it simply issues a redirect -&amp;nbsp;&lt;/div&gt;&lt;div&gt;301 for permanent redirect&amp;nbsp;&lt;/div&gt;&lt;div&gt;/ 302 for temporary redirect&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="390" y="210" width="170" height="90" as="geometry" />
+          <mxGeometry x="390" y="260" width="170" height="90" as="geometry" />
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-2" target="W2t6VYhGArtFluvk6CB1-9">
           <mxGeometry relative="1" as="geometry">
@@ -91,6 +91,9 @@
           <mxGeometry x="-0.0486" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="W2t6VYhGArtFluvk6CB1-28" value="this cache is for faster reads" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.cache_node;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="137" width="30" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
