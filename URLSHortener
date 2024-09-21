@@ -16,7 +16,7 @@
           <mxGeometry x="30" y="310" width="100" height="100" as="geometry" />
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-9" value="" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="450" y="141" width="50" height="48" as="geometry" />
+          <mxGeometry x="450" y="130" width="61.46" height="59" as="geometry" />
         </mxCell>
         <mxCell id="W2t6VYhGArtFluvk6CB1-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-2">
           <mxGeometry relative="1" as="geometry">
@@ -56,12 +56,12 @@
         <mxCell id="W2t6VYhGArtFluvk6CB1-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.093;entryY=0.427;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-8" target="W2t6VYhGArtFluvk6CB1-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="W2t6VYhGArtFluvk6CB1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-20" target="W2t6VYhGArtFluvk6CB1-9">
+        <mxCell id="W2t6VYhGArtFluvk6CB1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.933;exitY=0.35;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-18" target="W2t6VYhGArtFluvk6CB1-9">
           <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="270" as="sourcePoint" />
             <mxPoint x="480" y="210" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="475" y="230" />
-              <mxPoint x="475" y="230" />
+              <mxPoint x="475" y="363" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -70,14 +70,27 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="W2t6VYhGArtFluvk6CB1-20" value="Router" style="aspect=fixed;sketch=0;html=1;dashed=0;whitespace=wrap;verticalLabelPosition=bottom;verticalAlign=top;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];shape=mxgraph.kubernetes.icon2;kubernetesLabel=1;prIcon=api" vertex="1" parent="1">
-          <mxGeometry x="450" y="270" width="50" height="48" as="geometry" />
+        <mxCell id="W2t6VYhGArtFluvk6CB1-27" value="USer enters a short url&amp;nbsp;&lt;div&gt;on web against our domain&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W2t6VYhGArtFluvk6CB1-22">
+          <mxGeometry x="-0.4679" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
-        <mxCell id="W2t6VYhGArtFluvk6CB1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.005;entryY=0.63;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-18" target="W2t6VYhGArtFluvk6CB1-20">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="W2t6VYhGArtFluvk6CB1-24" value="How does this router work&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;it simply issues a redirect -&amp;nbsp;&lt;/div&gt;&lt;div&gt;301 for permanent redirect&amp;nbsp;&lt;/div&gt;&lt;div&gt;/ 302 for temporary redirect&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="390" y="210" width="170" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="W2t6VYhGArtFluvk6CB1-24" value="How does this router work" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="510" y="280" width="160" height="30" as="geometry" />
+        <mxCell id="W2t6VYhGArtFluvk6CB1-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="W2t6VYhGArtFluvk6CB1-2" target="W2t6VYhGArtFluvk6CB1-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="382" y="120" />
+              <mxPoint x="382" y="121" />
+              <mxPoint x="475" y="121" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W2t6VYhGArtFluvk6CB1-26" value="PATCH for update" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="W2t6VYhGArtFluvk6CB1-25">
+          <mxGeometry x="-0.0486" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
