@@ -1,9 +1,68 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.7.16">
   <diagram name="Page-1" id="Wudew5nbT_8r08CWXDU4">
-    <mxGraphModel>
+    <mxGraphModel dx="875" dy="464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-1" value="Login/Auth&lt;div&gt;(OAuth?)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="140" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-2" value="UI" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="305" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-3" value="Search and filter" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="112" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-4" value="BookingService" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-6" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="690" y="570" as="sourcePoint" />
+            <mxPoint x="690" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-7" value="&lt;b&gt;Restaurants&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="VGpISAr1tqIlaOF2pbcJ-4" target="VGpISAr1tqIlaOF2pbcJ-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="222" as="sourcePoint" />
+            <mxPoint x="720" y="162" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-9" value="API request" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=0;" vertex="1" connectable="0" parent="VGpISAr1tqIlaOF2pbcJ-8">
+          <mxGeometry x="0.0173" y="-4" relative="1" as="geometry">
+            <mxPoint y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="572" as="sourcePoint" />
+            <mxPoint x="120" y="32" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-11" value="Users(Diners)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="20" y="32" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-12" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="30" y="112" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-13" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="500" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-14" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="380" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-15" value="" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="610" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VGpISAr1tqIlaOF2pbcJ-16" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Types of data&lt;/h1&gt;&lt;div&gt;- one to link each restaurant to its available tables etc.,&amp;nbsp;&lt;/div&gt;&lt;div&gt;- map of restaurants to various attributes like cuisine, rating, location&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="450" width="350" height="120" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
