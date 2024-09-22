@@ -11,7 +11,8 @@
   - enlist themselves on the app
   - specify number of reserveations
   - get notified when someone books
-  - get metrics etc.,      
+  - get reporting, analytics,  etc.,
+  - way to contact reservation holders
 
 Scale
 - times when usage is heavier vs times when it is leaner
