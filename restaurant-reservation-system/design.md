@@ -5,6 +5,8 @@
   - search for a set of restaurants given a cuisine, an area, ratings, experience (fine dine, rooftop, party etc etc)
   - view the available slots, tables, specify size of the table etc.,  and book to get confirmation
   - rate the app and give feedback
+  - cancel the reservation/update it
+  - notification via sms/email/whatsapp
 - restaurants themselves are customers and they want to be able to
   - enlist themselves on the app
   - specify number of reserveations
