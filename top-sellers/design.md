@@ -5,6 +5,4 @@
 
 DB containing sales info, product info
 
-Book
-  bookId, authorId, category
-compute weighted sum of sa
+
