@@ -3,6 +3,7 @@
 Only features we are focusing for this is users' ability to upload videos from anywhere and play them from anywhere at scale.
 
 ## Actual Youtube Loads
+ - Source - https://www.technologygee.com/how-does-youtube-store-billions-of-videos/
  - 720,000 hours of videos uploaded every day ~ 0.7Mill hours uploaded every day
  - This means 4.3 petabytes of storage every day
  - Youtube stores every video in multiple resolutions and bitrates for efficient streaming
